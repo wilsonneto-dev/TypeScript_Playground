@@ -1,5 +1,5 @@
 {
-  "files": ["src/main.ts"],
+  "files": ["src/generalTypes.ts"],
   "compilerOptions": {
     "strictNullChecks": true,
     "noImplicitAny": true,

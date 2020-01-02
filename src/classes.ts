@@ -1,6 +1,12 @@
 class Person {
-  firstName: String;
-  lastName: String;
+  privatefirstName: string;
+  lastName: string;
+  age: number;
 
-  age: Int;
+  geeting(myName: string): void {
+    console.log(`Hi ${myName}, i'm ${this.firstName}`);
+  }
 }
+
+const p: Person = new Person();
+p.geeting;
